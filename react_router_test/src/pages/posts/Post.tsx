@@ -35,9 +35,9 @@ const Post = function () {
             <CardTitle>#{data.id}: {data.title}</CardTitle>
             <CardContent>
                 <p className="normal-case">{data.body}</p>
-                <div className="mt-4">
+                <div className="mt-4 block">
                     <Link to="/"
-                          className="bg-gradient-to-r from-blue-500 to-purple-600  hover:bg-amber-600 border-2 text-white font-bold py-2 px-4 rounded-4xl transition-all duration-250 ease-in-out hover:scale-105">
+                          className="inline-block bg-gradient-to-r from-blue-500 to-purple-600  hover:bg-amber-600 border-2 text-white font-bold py-2 px-4 rounded-4xl transition-all duration-250 ease-in-out hover:scale-105">
                         Back to Home
                     </Link>
                 </div>

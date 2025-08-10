@@ -6,4 +6,4 @@
 ## How to install
 - run `npm install` in the root directory
 - run `npm run dev` for development hot reload
-- run `npm run build` for production build
+- run `npm run build` + `npm run preview` to preview the application 
